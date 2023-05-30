@@ -1,0 +1,12 @@
+.footer {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010A13;
+}
+.signature {
+  font-size: 18px;
+  color: #C89B3C;
+  font-family: Arial, Helvetica, sans-serif;
+}
