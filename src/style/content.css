@@ -1,3 +1,36 @@
+@font-face {
+  font-family: lol;
+  src: url(../style/font.otf);
+}
 .content {
-  height: 88vh;
+  height: 82vh;
+  background-color: #091428;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+}
+.scores {
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score, .highest {
+  font-family: lol;
+  width: 50%;
+  height: 100%;
+  font-size: 2rem;
+  color: #C89B3C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

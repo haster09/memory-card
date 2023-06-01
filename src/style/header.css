@@ -3,14 +3,14 @@
   src: url(../style/font.otf);
 }
 .header {
-  height: 12vh;
+  height: 18vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .logo {
   font-family: lol;
-  font-size: 3.7rem;
+  font-size: 4rem;
   font-weight: 700;
   color: #C89B3C;
 }
