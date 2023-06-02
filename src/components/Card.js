@@ -11,9 +11,9 @@ return images;
 
 const images = importAll(require.context('../style/images', false, /[0-9]/))
 
-const Card = ({id, change}) => {
+const Card = ({id, change, src}) => {
   return (
-    <img className="card" onClick={change} id={id} src={images[`${id}.jpg`]} style={{width: '100%'}} alt={'champion'}></img>
+    <img className="card" onClick={change} id={id} src={src} alt={'champion'}></img>
   )
 }
 
